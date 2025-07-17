@@ -1,0 +1,12 @@
+#environment variables
+.env
+
+#virtual environment stuff
+.venv/
+
+#vscode IDE specific stuff
+.vscode/
+
+#system files for operating systems
+.DS_store
+Thumbs.db
