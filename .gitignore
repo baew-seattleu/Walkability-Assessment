@@ -8,5 +8,8 @@
 .vscode/
 
 #system files for operating systems
-.DS_store
+.DS_Store
 Thumbs.db
+
+#in progress
+/Analysis
