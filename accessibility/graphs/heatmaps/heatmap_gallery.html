@@ -1,0 +1,83 @@
+
+    <html>
+    <head>
+        <title>Heatmap Gallery</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                padding: 20px;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+                gap: 20px;
+            }
+            .map-frame {
+                border: 1px solid #ccc;
+                padding: 10px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+                background: #f9f9f9;
+            }
+            iframe {
+                width: 100%;
+                height: 300px;
+                border: none;
+            }
+            h3 {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Heatmap Gallery by Label Type</h1>
+        <div class="grid">
+    
+            <div class="map-frame">
+                <h3>CurbRamp</h3>
+                <iframe src="heatmap_CurbRamp.html"></iframe>
+            </div>
+        
+            <div class="map-frame">
+                <h3>NoSidewalk</h3>
+                <iframe src="heatmap_NoSidewalk.html"></iframe>
+            </div>
+        
+            <div class="map-frame">
+                <h3>Occlusion</h3>
+                <iframe src="heatmap_Occlusion.html"></iframe>
+            </div>
+        
+            <div class="map-frame">
+                <h3>SurfaceProblem</h3>
+                <iframe src="heatmap_SurfaceProblem.html"></iframe>
+            </div>
+        
+            <div class="map-frame">
+                <h3>Obstacle</h3>
+                <iframe src="heatmap_Obstacle.html"></iframe>
+            </div>
+        
+            <div class="map-frame">
+                <h3>NoCurbRamp</h3>
+                <iframe src="heatmap_NoCurbRamp.html"></iframe>
+            </div>
+        
+            <div class="map-frame">
+                <h3>Crosswalk</h3>
+                <iframe src="heatmap_Crosswalk.html"></iframe>
+            </div>
+        
+            <div class="map-frame">
+                <h3>Sig1l</h3>
+                <iframe src="heatmap_Sig1l.html"></iframe>
+            </div>
+        
+            <div class="map-frame">
+                <h3>Other</h3>
+                <iframe src="heatmap_Other.html"></iframe>
+            </div>
+        
+        </div>
+    </body>
+    </html>
+    
